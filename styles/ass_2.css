@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+/* banner styles */
+.banner{
+    margin: 0 auto;
+    
+}
+
+.fitness{
+    color: #E6533C;
+    font-size: 36px;
+    font-weight: bolder;  
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -48px;
+    margin-right: -40px;
+    
+    
+}
+.items{
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+    border: 0.1px solid lightgray;
+    border-radius: 39px;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.items li{
+    list-style: none;
+    font-size: 18;
+    color: white;
+}
+#home{
+    background-color: #E6533C;
+    border-radius: 46px;
+    width: 52px;
+    height: 22px;
+    text-align: center;
+    font-weight: 600;   
+}
+.banner-content{
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.content > h1{
+    font-size: 78px;
+}
+#shape{
+    font-weight: normal;
+    
+}
+.btn-1{
+    background-color: #E6533C;
+    width: 224px;
+    height: 54px;
+    color: white;
+    font-size: 18px;
+    border-radius: 42px;
+}
+.btn-2{
+    width: 224px;
+    height: 54px;
+    color: white;
+    font-size: 18px;
+    border-radius: 42px;
+    background-color: black;
+    border: 0.5px solid white;
+}
+.btn-3{
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: white;
+    width: 206px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding-right: 23px;
+    position: relative;
+    left: 800px;
+    top: -170px;
+}
+#circle{
+    border: 1px;
+    background-color: #E6533C;
+    width: 40px;
+    height: 40px;
+    border-radius: 46px;
+    
+}
+.btn-4{
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(48, 48, 48, 0.54);
+    position: relative;
+    left: 1150px;
+    top: -600px;
+    padding-left: 44px;
+    padding-top: 25px;
+   
+}
